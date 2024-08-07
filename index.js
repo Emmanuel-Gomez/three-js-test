@@ -40,7 +40,7 @@ async function init() {
   );
 
   const controls = new OrbitControls(camera, renderer.domElement);
-  camera.position.set(-0.5, 2, 7);
+  camera.position.set(1.5, 3, 4);
   controls.target.set(0, 1, 0);
   controls.update();
 
